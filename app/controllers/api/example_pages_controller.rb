@@ -7,6 +7,13 @@ class Api::ExamplePagesController < ApplicationController
   end
 
   def second_action
+    x = 4
+    if x > 6
+      @message = "wow x is super big!!!"
+    else
+      @message = "oh no, is x okay? it's very small"
+    end
+
     render 'second.json.jb'
   end
 end
