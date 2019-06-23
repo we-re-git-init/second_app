@@ -5,4 +5,8 @@ class Api::ExamplePagesController < ApplicationController
 
     render 'first.json.jb'
   end
+
+  def second_action
+    render 'second.json.jb'
+  end
 end
