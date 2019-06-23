@@ -1,1 +1,2 @@
-{message: 'first'}
+# place for data
+{message: @the_time}
